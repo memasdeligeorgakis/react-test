@@ -12,7 +12,7 @@ class Button extends React.PureComponent {
       <div
         key="button"
         onClick={this.onClick}
-        style={{ marginBottom: "0.2rem", ...this.props.style }}
+        style={{ ...this.props.style }}
         className="button button-primary"
       >
         {this.props.children || "Button"}
